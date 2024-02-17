@@ -85,3 +85,46 @@
 // };
 
 // console.log(fruitProcessor(4, 3));
+
+//                     homework task 1
+// function twoAddNumbers(a, b) {
+//   return a + b;
+// }
+// console.log(twoAddNumbers(4, 11));
+
+//                     homework task 2
+// const findHighValue = function (a, b) {
+//   if (a > b) {
+//     return `${a} katta ${b} dan`;
+//   } else {
+//     return `${b} katta ${a} dan`;
+//   }
+// };
+// console.log(findHighValue(15, 13));
+
+//                     homework task 3
+// const findNumber = (a) => {
+//   if (a > 0 && a % 2 === 0) {
+//     return `${a} juft son`;
+//   } else if (a > 0) {
+//     return `${a} toq son`;
+//   } else if (a < 0) {
+//     return `${a} manfiy son`;
+//   }
+// };
+// console.log(findNumber(-2));
+
+//                     homework task 4
+// const fizzBuzz = (a) => {
+//   if (a % 3 === 0 && a % 5 === 0) {
+//     return "FizzBuzz";
+//   } else if (a % 3 === 0) {
+//     return "Fizz";
+//   } else if (a % 5 === 0) {
+//     return "Buzz";
+//   } else {
+//     return "Error message";
+//   }
+// };
+
+// console.log(fizzBuzz(20));
