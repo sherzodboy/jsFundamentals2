@@ -128,3 +128,106 @@
 // };
 
 // console.log(fizzBuzz(20));
+
+// const calcAge = (birthYear) => {
+//   return 2024 - birthYear;
+// };
+
+// const untilYearsRetirement = function (birthYear, firstName) {
+//   const age = calcAge(birthYear);
+//   const retirement = 65 - age;
+//   if (retirement > 0) {
+//     return `${firstName} retirs in ${retirement} years`;
+//   } else {
+//     return `${firstName} is retired with ${retirement}`;
+//   }
+// };
+
+// console.log(untilYearsRetirement(1950, "Tom"));
+
+// const calcAverage = (a, b, c) => {
+//   return (a + b + c) / 3;
+// };
+
+// const avgDolphins = calcAverage(85, 54, 41);
+// const avgKaolas = calcAverage(23, 34, 27);
+// console.log(avgDolphins, avgKaolas);
+
+// const checkWinner = function (avgDolphins, avgKaolas) {
+//   if (avgDolphins >= 2 * avgKaolas) {
+//     return `Dolphins win 🏆 (${avgDolphins} vs ${avgKaolas})`;
+//   } else if (avgKaolas >= 2 * avgDolphins) {
+//     return `Kaolas win 🏆 (${avgKaolas} vs ${avgDolphins})`;
+//   } else {
+//     return "No teams win the game";
+//   }
+// };
+
+// console.log(checkWinner(avgDolphins, avgKaolas));
+
+// ----------------------------------- Array -----------------------------------
+
+// const friend1 = "Tom";
+// const friend2 = "John";
+// const friend3 = "Bob";
+// const friend4 = "Daniel";
+
+// const friends = ["Tom", "John", "Bob", "Daniel"];
+// // const years = new Array(1990, 2000, 2010, 2020);
+
+// // console.log(friends);
+// // console.log(friends[1]);
+// // console.log(friends.length);
+// // console.log(friends[friends.length - 1]);
+
+// // friends[2] = "Ann";
+// // console.log(friends);
+
+// const firstName = "Leonel";
+// const soccer = [firstName, "Messi", 2024 - 1987, "football player", friends];
+// console.log(soccer);
+// // console.log(soccer.length);
+
+// function calcAge(birthYear) {
+//   return 2024 - birthYear;
+// }
+
+// const years = [1990, 2001, 2005, 2010];
+
+// const age1 = calcAge(years[0]);
+// const age2 = calcAge(years[1]);
+// const age3 = calcAge(years[years.length - 1]);
+// console.log(age1, age2, age3);
+
+// const friends = ["Tom", "John", "Bob", "Daniel"];
+// console.log(friends);
+
+// const newArr = friends.push("Alibek"); // add value in the end of array
+// console.log(friends);
+
+// friends.unshift("Eleven"); // add value in the beginning of array
+// console.log(friends);
+
+// const popped = friends.pop(); // remove value in the end of array
+// console.log(friends);
+
+// friends.shift(); // remove first element in the array
+// console.log(friends);
+
+// const friends = ["Tom", "John", "Bob", "Daniel"];
+
+// // console.log(friends.indexOf("John"));
+// // console.log(friends.indexOf("Daniel"));
+
+// console.log(friends.includes("Tom"));
+
+// const bills = [125, 555, 44];
+
+// const caclTrip = (bill) => {
+//   const tip = bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+//   return tip;
+// };
+// const tips = [caclTrip(bills[0]), caclTrip(bills[1]), caclTrip(bills[2])];
+
+// const total = [tips[0] + bills[0], tips[1] + bills[1], tips[2] + bills[2]];
+// console.log(total);
