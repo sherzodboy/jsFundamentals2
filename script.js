@@ -231,3 +231,61 @@
 
 // const total = [tips[0] + bills[0], tips[1] + bills[1], tips[2] + bills[2]];
 // console.log(total);
+
+// const bobsArray = [
+//   "Bob",
+//   "Danil",
+//   2024 - 1990,
+//   "teacher",
+//   "english",
+//   1234567,
+//   ["Tom", "Ann", "Michael"],
+// ];
+
+// const bob = {
+//   firstName: "Bob",
+//   lastName: "Danile",
+//   age: 2024 - 1990,
+//   job: "teacher",
+//   friends: ["Tom", "Ann", "Michael"],
+// };
+
+// console.log(bob.job); // teacher
+// console.log(bob["job"]); // teacher
+// const keyName = "Name";
+
+// console.log(bob["first" + keyName]); // Bob
+// console.log(bob["last" + keyName]); // Daniel
+
+// const interestedIn = prompt("Bob haqida qanday malumotni bilishni hohlaysiz");
+// // console.log(bob.interestedIn); // undefined
+
+// if (bob[interestedIn]) {
+//   console.log(bob[interestedIn]);
+// } else {
+//   console.log("Wrong request");
+// }
+
+// const bob = {
+//   firstName: "Bob",
+//   lastName: "David",
+//   age: 2024 - 1990,
+//   job: "actor",
+//   nationality: "english",
+//   phone: 123456789,
+//   friends: ["Ann", "John", "Tom"],
+// };
+
+// bob.location = "Spain";
+// bob["hasDriversLicense"] = true;
+// // bob.job = "bloger";
+// bob["job"] = "bloger";
+// console.log(bob);
+
+// Bob has 3 friends, and his best friend is Tom
+
+// console.log(
+//   `${bob.firstName} has ${bob.friends.length} friends, and his best friend is ${
+//     bob.friends[bob.friends.length - 1]
+//   }`
+// );
