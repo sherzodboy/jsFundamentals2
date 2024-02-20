@@ -446,18 +446,18 @@
 
 // console.log(ages);
 
-const bobsArray = [
-  "Bob",
-  "Danil",
-  2024 - 1990,
-  "teacher",
-  "english",
-  1234567,
-  ["Tom", "Ann", "Michael"],
-];
+// const bobsArray = [
+//   "Bob",
+//   "Danil",
+//   2024 - 1990,
+//   "teacher",
+//   "english",
+//   1234567,
+//   ["Tom", "Ann", "Michael"],
+// ];
 
-for (let i = 0; i < bobsArray.length; i++) {
-  if (typeof bobsArray[i] === "number") break;
+// for (let i = 0; i < bobsArray.length; i++) {
+//   if (typeof bobsArray[i] === "number") break;
 
-  console.log(bobsArray[i]);
-}
+//   console.log(bobsArray[i]);
+// }
