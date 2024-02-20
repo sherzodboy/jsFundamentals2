@@ -289,3 +289,175 @@
 //     bob.friends[bob.friends.length - 1]
 //   }`
 // );
+
+// const bakhriddinArr1 = [
+//   "Bakhriddin",
+//   "Qurbonov",
+//   2024 - 2004,
+//   "student",
+//   "playing counter strike",
+//   ["Michael", "Jone", "Steven"],
+//   true,
+// ];
+
+// const bakhriddinArr = {
+//   firstName: "Bakhriddin",
+//   lastName: "Qurbonov",
+//   age: 2024 - 2004,
+//   friends: ["Michael", "Jone", "Steven"],
+//   hasDriversLicense: true,
+//   hobbi: "playing counter strike",
+// };
+
+// console.log(bakhriddinArr.lastName);
+// console.log(bakhriddinArr["firstName"]);
+
+// bakhriddinArr["isMarried"] = false;
+
+// console.log(bakhriddinArr);
+
+// function remain(a, b) {
+//   if (a > b) {
+//     return b % a;
+//   } else if (b > a) {
+//     return a % b;
+//   } else if (a % b === 0) {
+//     return 0;
+//   }
+// }
+
+// console.log(remain(7, 2));
+
+// 5 * 1 + 1
+// 5 * 2 + 1
+// 5 * 3 + 1
+// 5 * 4 + 1
+
+// function matchHouses(step) {
+//   return 5 * step + 1;
+// }
+
+// console.log(matchHouses(87));
+
+// const bakhriddin = {
+//   firstName: "Bakhriddin",
+//   lastName: "Qurbonov",
+//   friends: ["Michael", "Jone", "Steven"],
+//   hasDriversLicense: true,
+//   birthYear: 2004,
+//   hobbi: "playing counter strike",
+//   phone: 123456789,
+//   job: "student",
+
+//   //   calcAge: function (birthYear) {
+//   //     console.log(this);
+//   //     return 2024 - birthYear;
+//   //   },
+
+//   caclAge: function () {
+//     this.age = 2024 - this.birthYear;
+//     return this.age;
+//   },
+// };
+
+// bakhriddin.caclAge();
+// console.log(bakhriddin.age);
+
+// // Bakhriddin is 20 years old student, he has a/no driver's license
+
+// console.log(
+//   `${bakhriddin.firstName} is ${bakhriddin.age} years old ${
+//     bakhriddin.job
+//   }, he has ${bakhriddin.hasDriversLicense ? "a" : "no"} driver's license`
+// );
+
+// const mark = {
+//   fullName: "Mark Miller",
+//   mass: 78,
+//   height: 1.69,
+
+//   calcBMI: function () {
+//     this.bmi = this.mass / this.height ** 2;
+//     return this.bmi;
+//   },
+// };
+
+// const john = {
+//   fullName: "John Smith",
+//   mass: 92,
+//   height: 1.95,
+
+//   calcBMI: function () {
+//     this.bmi = this.mass / this.height ** 2;
+//     return this.bmi;
+//   },
+// };
+
+// mark.calcBMI();
+// john.calcBMI();
+
+// console.log(
+//   `${mark.fullName}'s BMI (${mark.bmi}) is higher than ${john.fullName}'s (${john.bmi})`
+// );
+
+// console.log("Matemetik raqamlar 1");
+// console.log("Matemetik raqamlar 2");
+// console.log("Matemetik raqamlar 3");
+// console.log("Matemetik raqamlar 4");
+// console.log("Matemetik raqamlar 5");
+// console.log("Matemetik raqamlar 6");
+// console.log("Matemetik raqamlar 7");
+// console.log("Matemetik raqamlar 8");
+// console.log("Matemetik raqamlar 9");
+// console.log("Matemetik raqamlar 10");
+
+// for (let num = 1; num <= 10; num++) {
+//   console.log(num);
+// }
+
+// const bakhriddinArr = [
+//   "Bakhriddin",
+//   "Qurbonov",
+//   2024 - 2004,
+//   true,
+//   "student",
+//   "playing counter strike",
+//   ["Michael", "Jone", "Steven"],
+//   false,
+// ];
+
+// const types = [];
+
+// for (let i = 0; i < bakhriddinArr.length; i++) {
+//   console.log(bakhriddinArr[i]);
+
+//   types.push(typeof bakhriddinArr[i]);
+//   //   types[i] = typeof bakhriddinArr[i];
+// }
+
+// console.log(types);
+
+// const years = [1990, 1995, 2000, 2005, 2010];
+// const ages = [];
+
+// for (let i = 0; i < years.length; i++) {
+//   ages.push(2024 - years[i]);
+// }
+
+// console.log(ages);
+
+const bobsArray = [
+  "Bob",
+  "Danil",
+  2024 - 1990,
+  "teacher",
+  "english",
+  1234567,
+  ["Tom", "Ann", "Michael"],
+];
+
+for (let i = 0; i < bobsArray.length; i++) {
+  if (typeof bobsArray[i] === "number") break;
+
+  console.log(bobsArray[i]);
+}
