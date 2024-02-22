@@ -461,3 +461,160 @@
 
 //   console.log(bobsArray[i]);
 // }
+
+// for (let i = 0; i < 10; i++) {
+//   console.log(i);
+// }
+
+// const bobsArray = [
+//   "Bob",
+//   "Danil",
+//   2024 - 1990,
+//   "teacher",
+//   "english",
+//   1234567,
+//   ["Tom", "Ann", "Michael"],
+// ];
+
+// // console.log(bobsArray[0]);
+// // console.log(bobsArray[1]);
+// // console.log(bobsArray[2]);
+
+// for (let i = 0; i < bobsArray.length; i++) {
+//   console.log(bobsArray[i]);
+// }
+
+// const years = [1990, 1995, 2000, 2005, 2010];
+// const ages = [];
+
+// for (let i = 0; i < years.length; i++) {
+//   let age = 2024 - years[i];
+//   ages.push(age);
+// }
+// console.log(ages);
+
+// for (let i = 0; i < 10; i++) {
+//   if (i === 6) break;
+//   console.log(i);
+// }
+
+// const bobsArray = [
+//   "Bob",
+//   "Danil",
+//   2024 - 1990,
+//   "teacher",
+//   "english",
+//   1234567,
+//   ["Tom", "Ann", "Michael"],
+//   true,
+// ];
+
+// for (let i = 0; i < bobsArray.length; i++) {
+//   // only srtring
+//   if (typeof bobsArray[i] !== "string") break;
+//   console.log(bobsArray[i]);
+// }
+
+// for (let i = 1; i <= 50; i++) {
+//   if (i % 2 === 0) {
+//     console.log(`${i} juft son`);
+//   } else {
+//     console.log(`${i} toq son`);
+//   }
+//   //   i % 2 === 0 ? console.log(`${i} juft son`) : console.log(`${i} toq son`);
+// }
+
+// FizzBuzz
+// for (let i = 1; i <= 50; i++) {
+//   if (i % 3 === 0 && i % 5 === 0) {
+//     console.log(`${i} FizzBuzz`);
+//   } else if (i % 3 === 0) {
+//     console.log(`${i} Fizz`);
+//   } else if (i % 5 === 0) {
+//     console.log(`${i} Buzz`);
+//   }
+// }
+
+// 1 dan 10 ga sonni bir biriga qo'shish
+
+// let sum = 0;
+
+// for (let i = 1; i <= 10; i++) {
+//   sum += i; // sum = sum + i
+//   // sum = 0 + 1 => 1
+//   // sum = 1 + 2 => 3
+//   // sum = 3 + 3 => 6
+//   // sum = 6 + 4 => 10
+//   // sum = 10 + 5 => 15
+//   // sum = 15 + 6 => 21
+//   // sum = 21 + 7 => 28
+//   // sum = 28 + 8 => 36
+//   // sum = 36 + 9 => 45
+//   // sum = 45 + 10 => 55
+// }
+// console.log(sum);
+
+// const karaKara = (n) => {
+//   for (let i = 1; i < 11; i++) {
+//     console.log(`${n} * ${i} = ${n * i}`);
+//   }
+// };
+
+// karaKara(9);
+/*
+        7 * 1 = 7
+        7 * 2 = 14
+        7 * 3 = 21
+        7 * 4 = 28
+        ...
+        7 * 9 = 63
+        7 * 10 = 70 
+*/
+
+// const bobsArray = [
+//   "Bob",
+//   "Danil",
+//   2024 - 1990,
+//   "english",
+//   ["Tom", "Ann", "Michael"],
+//   true,
+//   "teacher",
+// ];🏋🏻
+
+// for (let i = bobsArray.length - 1; i >= 0; i--) {
+//   console.log(i, bobsArray[i]);
+// }
+
+// loops in loops
+// for (let exercise = 1; exercise <= 3; exercise++) {
+//   console.log(`------- starting exersice ${exercise}`);
+//   for (let rep = 1; rep <= 5; rep++) {
+//     console.log(`Lifting weight reptition ${rep} 🏋️`);
+//   }
+// }
+
+// let i = 0;
+// let sum = 0;
+
+// while (i <= 5) {
+//   console.log(i);
+//   i++;
+// }
+
+// let num = Math.trunc(Math.random() * 6 + 1);
+// console.log(num);
+
+// while (num !== 6) {
+//   console.log(`You rolled ${num}`);
+//   num++;
+// }
+
+// let i = 0;
+
+// do {
+//   console.log(i);
+//   i++;
+// } while (i <= 10);
+
+// let num = Math.trunc(Math.random() * 4);
+// console.log(num);
